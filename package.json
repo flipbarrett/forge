@@ -1,0 +1,31 @@
+{
+  "name": "greysforge",
+  "version": "1.0.0",
+  "description": "App to display and sell movie and videogame items and artifacts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://flipbarrett:piantissimo1@github.com/flipbarrett/forge.git"
+  },
+  "author": "FilipposSidiropoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flipbarrett/forge/issues"
+  },
+  "homepage": "https://github.com/flipbarrett/forge#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
